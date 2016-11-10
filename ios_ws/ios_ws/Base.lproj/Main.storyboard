@@ -71,66 +71,105 @@
                                 <rect key="frame" x="19" y="283" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Card1"/>
+                                <connections>
+                                    <action selector="chooseCardWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="vN6-Qo-OQg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVk-uX-6Om">
                                 <rect key="frame" x="107" y="283" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Card2"/>
+                                <connections>
+                                    <action selector="chooseCardWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="Q5m-qv-27V"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nq-YW-JCR">
                                 <rect key="frame" x="208" y="283" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Card3"/>
+                                <connections>
+                                    <action selector="chooseCardWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="B4k-Y1-WBl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OS-N7-Dr1">
                                 <rect key="frame" x="295" y="283" width="43" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Card4"/>
+                                <connections>
+                                    <action selector="chooseCardWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="Gqg-Me-4wZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCg-St-fbj">
                                 <rect key="frame" x="81" y="358" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="operationWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="lWB-FE-FKs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IE-4e-WI6">
                                 <rect key="frame" x="135" y="358" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="*"/>
+                                <connections>
+                                    <action selector="operationWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="VrC-iS-tc4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZM-lA-Pp5">
                                 <rect key="frame" x="259" y="358" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="("/>
+                                <connections>
+                                    <action selector="operationWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="q7Q-Ul-QAX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCK-pq-bbY">
                                 <rect key="frame" x="313" y="358" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=")"/>
+                                <connections>
+                                    <action selector="operationWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="IyO-6V-97H"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yn9-jZ-qxL">
                                 <rect key="frame" x="24" y="358" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="operationWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="9qx-g2-37O"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuV-3r-9Bj">
                                 <rect key="frame" x="205" y="358" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="operationWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="fE7-sW-Md4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0U-7L-k4K">
                                 <rect key="frame" x="256" y="444" width="36" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="enter"/>
+                                <connections>
+                                    <action selector="enterResultWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="aUA-A5-SFI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzL-ZS-NM2">
                                 <rect key="frame" x="237" y="515" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="clear"/>
+                                <connections>
+                                    <action selector="clearInputWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="Jhu-Oa-G8M"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkl-06-EeJ">
                                 <rect key="frame" x="305" y="515" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="next"/>
+                                <connections>
+                                    <action selector="nextCardsWithSender:" destination="WLI-eL-6pU" eventType="touchUpInside" id="T3V-NY-i84"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ma-K4-SLK">
                                 <rect key="frame" x="60" y="491" width="48" height="21"/>
@@ -147,14 +186,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="use-LA-IeJ">
-                                <rect key="frame" x="172" y="491" width="11" height="21"/>
+                                <rect key="frame" x="172" y="491" width="29" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhx-wS-ABE">
-                                <rect key="frame" x="172" y="520" width="11" height="21"/>
+                                <rect key="frame" x="172" y="520" width="29" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -172,10 +211,26 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="GqF-yb-b76"/>
+                    <connections>
+                        <outlet property="calResult" destination="use-LA-IeJ" id="d0s-ZX-Yeg"/>
+                        <outlet property="calculation" destination="2p3-OC-3xN" id="4fw-ht-wmb"/>
+                        <outlet property="enterBtn" destination="q0U-7L-k4K" id="5Cz-qs-Mcp"/>
+                        <outlet property="scoreLabel" destination="Mhx-wS-ABE" id="snK-Av-4pN"/>
+                        <outletCollection property="cardButtons" destination="K5k-6Q-pQt" collectionClass="NSMutableArray" id="nxl-HA-iv6"/>
+                        <outletCollection property="cardButtons" destination="zVk-uX-6Om" collectionClass="NSMutableArray" id="XO9-7N-Fce"/>
+                        <outletCollection property="cardButtons" destination="8nq-YW-JCR" collectionClass="NSMutableArray" id="M5E-5i-06b"/>
+                        <outletCollection property="cardButtons" destination="5OS-N7-Dr1" collectionClass="NSMutableArray" id="Y0i-XN-lEh"/>
+                        <outletCollection property="operButtons" destination="yn9-jZ-qxL" collectionClass="NSMutableArray" id="bmu-Sz-BSw"/>
+                        <outletCollection property="operButtons" destination="GCg-St-fbj" collectionClass="NSMutableArray" id="EqF-Gd-nnF"/>
+                        <outletCollection property="operButtons" destination="1IE-4e-WI6" collectionClass="NSMutableArray" id="19D-Ot-DzH"/>
+                        <outletCollection property="operButtons" destination="kuV-3r-9Bj" collectionClass="NSMutableArray" id="hs7-lT-9EL"/>
+                        <outletCollection property="operButtons" destination="oZM-lA-Pp5" collectionClass="NSMutableArray" id="2Zb-g9-oGJ"/>
+                        <outletCollection property="operButtons" destination="qCK-pq-bbY" collectionClass="NSMutableArray" id="LN2-1A-W95"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Amf-u3-wjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1696.8" y="137.18140929535232"/>
+            <point key="canvasLocation" x="1976.8" y="890.10494752623697"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="B7M-M4-yJL">
